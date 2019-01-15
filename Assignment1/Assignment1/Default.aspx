@@ -59,7 +59,7 @@
                 </tbody>
             </table>
             <br />
-            <button type="submit">Calculate Age</button>
+            <button type="submit" runat="server" value="Submit">Submit</button>
             <br />
             <br />
             <asp:Label id="AgeLabel" runat="server">Age Will Dispay Here..</asp:Label>
